@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1015891426013",
+    "project_id": "trendsapp-d4778",
+    "storage_bucket": "trendsapp-d4778.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015891426013:android:05ac8af6f9816fbe17f934",
+        "android_client_info": {
+          "package_name": "com.beyzaparlak.trendsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": ""
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

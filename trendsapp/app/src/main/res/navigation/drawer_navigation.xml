@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.beyzaparlak.trendsapp.uiFragment.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.beyzaparlak.trendsapp.uiFragment.CategoryFragment"
+        android:label=""
+        tools:layout="@layout/fragment_category" >
+        <action
+            android:id="@+id/action_categoryFragment_to_categoryDetailsFragment"
+            app:destination="@id/categoryDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/categoryDetailsFragment"
+        android:name="com.beyzaparlak.trendsapp.uiFragment.CategoryDetailsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_category_details" />
+
+    <fragment
+        android:id="@+id/favoriteProductsFragment"
+        android:name="com.beyzaparlak.trendsapp.uiFragment.FavoriteProductsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_favorite_products" />
+
+    <fragment
+        android:id="@+id/logoutFragment"
+        android:name="com.beyzaparlak.trendsapp.uiFragment.LogoutFragment"
+        android:label=""
+        tools:layout="@layout/fragment_logout" />
+    <fragment
+        android:id="@+id/ordersFragment"
+        android:name="com.beyzaparlak.trendsapp.uiFragment.OrdersFragment"
+        android:label=""
+        tools:layout="@layout/fragment_orders" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.beyzaparlak.trendsapp.uiFragment.ProfileFragment"
+        android:label=""
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/productSearchFragment"
+        android:name="com.beyzaparlak.trendsapp.uiFragment.ProductSearchFragment"
+        android:label=""
+        tools:layout="@layout/fragment_product_search" />
+</navigation>
